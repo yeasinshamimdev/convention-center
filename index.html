@@ -103,8 +103,20 @@
   </header>
   <!-- Main content start  -->
   <main>
-    <!-- Our Package start  -->
     <section>
+      <!-- Toast  -->
+      <div class="d-flex justify-content-end">
+        <div class="toast fade show align-items-end text-dark border-2 mt-3" role="alert" aria-live="assertive" aria-atomic="false">
+          <div class="d-flex">
+            <div class="toast-body">
+              30% off on next booking
+            </div>
+            <button type="button" class="btn-close btn-close-dark me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+      
+    <!-- Our Package start  -->
       <h1 class="d-flex justify-content-center mt-5 mb-5 fw-bold">Our Package</h1>
       <div class="container mt-5">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
@@ -192,6 +204,7 @@
         </div>
       </div>
     </section>
+    <!-- Frequently asked Questions start  -->
     <section class="container">
       <h1 class="d-flex justify-content-center mt-5 mb-5 fw-bold">Frequently Asked Questions</h1>
       <div class="row g-3">
@@ -252,8 +265,10 @@
         </div>
       </div>
     </section>
+    <!-- from section start  -->
     <section>
-      <div class="container m-auto w-50 py-5 bg-secondary mt-5 text-white rounded">
+      <div class="container m-auto w-50 py-5 bg-secondary mt-5 text-white shadow-lg rounded">
+        <h2 class="text-center">Leave a comment </h2>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Your Name</label>
           <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
@@ -264,13 +279,14 @@
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Leave your comments.</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Leave you comments here" rows="5"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Leave you comments here" rows="3"></textarea>
         </div>
       </div>
     </section>
     
   </main>
-  <footer class="container-fluid bg-dark w-100 mt-2 py-5 px-3">
+  <!-- footer start  -->
+  <footer class="container-fluid bg-dark w-100 mt-2 py-5 px-3 ">
     <div class="row g-4">
         <div class="col-12 col-md-6 col-lg-6 m-auto">
           <p class="text-white text-center">© 2022| Yeasin Shamim</p>
